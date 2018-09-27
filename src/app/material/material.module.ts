@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatMenuModule, MatDividerModule, MatInputModule, MatTableModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatSnackBarModule, MatIconModule, MatCardModule, MatListModule, MatMenuModule, MatDividerModule, MatInputModule, MatTableModule, MatDialogModule, MatPaginatorModule } from '@angular/material';
 
 
 @NgModule({
@@ -21,7 +21,11 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MatMenuModule,
     MatDividerModule,
     MatInputModule,
-    MatTableModule
+    MatTableModule,
+    MatCardModule,
+    MatPaginatorModule,
+    MatSnackBarModule,
+    MatDialogModule
   ],
   exports:[
     BrowserModule,    
@@ -31,10 +35,14 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
+    MatSnackBarModule,
     MatMenuModule,
     MatDividerModule,
     MatInputModule,
     MatTableModule,
+    MatCardModule,
+    MatDialogModule,
+    MatPaginatorModule,
     MatListModule],
   providers: []
 })
